@@ -12,7 +12,7 @@ We consider a fixed deployment where 6 APs and 24 STAs (or users) remain in the 
 ### Repository description
 This repository contains the Python code for evaluating the performance of different ML-models in two ways:
 * General prediction error: how much different is `h` from `f`.
-* Optimal prediction error: how much far is the `argmax h` from `argmax f`
+* Optimal prediction error: how much far is `max(f)` from `f(argmax h)`
 
 
 ### Contribute
